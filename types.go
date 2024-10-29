@@ -26,7 +26,7 @@ type Client struct {
 	PID            int
 	XWayland       bool
 	Pinned         bool
-	FullScreen     bool
+	FullScreen     int
 	FullScreenMode int
 	FakeFullScreen bool
 	Grouped        []string
